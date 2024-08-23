@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: ARYC Docs
 
 # import hextra as module
 module:
@@ -24,23 +24,23 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
-      weight: 3
+    # - name: Contact ↗
+    #   url: "https://github.com/adventureadyyc"
+    #   weight: 3
     - name: Search
       weight: 4
       params:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://github.com/adventureadyyc"
       params:
         icon: github
     - name: Twitter
       weight: 6
-      url: "https://twitter.com/"
+      url: "https://facebook.com/AdventuReadyYouthClub"
       params:
-        icon: x-twitter
+        icon: facebook
 
 params:
   navbar:
@@ -52,5 +52,5 @@ params:
     displayPoweredBy: true
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
