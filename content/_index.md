@@ -1,5 +1,5 @@
 ---
-# title: My Site
+# title: ARYC Site
 toc: false
 ---
 
@@ -8,10 +8,16 @@ toc: false
 ## Explore
 
 {{< cards >}}
-  {{< card link="docs" title="Documentation" icon="book-open" >}}
+  <!-- {{< card link="docs" title="Documentation" icon="book-open" >}} -->
   {{< card link="about" title="About" icon="user" >}}
+  {{< card link="collections" title="Collections" icon="book-open" >}}
 {{< /cards >}}
 
-## Contact
+<!-- ## Contact -->
+<div style="height: 100px"></div>
 
-For inquiries, visit our Facebook page: [AdventuReady Youth Club](https://facebook.com/AdventuReadyYouthClub)
+For more info, inquiries and help support, visit our Facebook page:
+
+{{< cards >}}
+  {{< card link="https://facebook.com/AdventuReadyYouthClub" title="AdventuReady Youth Club" icon="facebook" >}}
+{{< /cards >}}

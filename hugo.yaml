@@ -1,7 +1,7 @@
 # Hugo configuration file
 ## Configuration
 baseURL: "https://adventureadyyc.github.io/"
-title: ARYC Docs
+title: AdventuReady Youth Club
 # theme: hextra
 
 enableRobotsTXT: true
@@ -23,7 +23,7 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: ARYC Docs
+    title: AdventuReady Youth Club
   # zh-cn:
   #   languageName: 简体中文
   #   languageCode: zh-CN
@@ -55,10 +55,10 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: Documentation
-      name: Docs
-      pageRef: /docs
-      weight: 1
+    # - identifier: Documentation
+    #   name: Docs
+    #   pageRef: /docs
+    #   weight: 1
     - name: About
       pageRef: /about
       weight: 2
@@ -86,29 +86,29 @@ menu:
       params:
         type: separator
       weight: 1
-    # - identifier: about
-    #   name: "About"
-    #   pageRef: "/about"
-    #   weight: 2
+    - identifier: help-support
+      name: "Help Support"
+      pageRef: "/help-support"
+      weight: 2
     # - identifier: hugoDocs
     #   name: "Hugo Docs ↗"
     #   url: "https://gohugo.io/documentation/"
     #   weight: 3
 
-logo: icons/favicon.ico
-favicon: icons/favicon.ico
+# logo: icons/favicon.ico
+# favicon: icons/favicon.ico
 
 params:
   description: AdventuReady Youth Club Documentation
 
   navbar:
-    displayTitle: true
+    displayTitle: false
     displayLogo: true
     logo:
       path: icons/favicon.svg
       # dark: images/logo-dark.svg
       width: 40
-      height: 20
+      height: 40
       link: /
     width: wide
 
