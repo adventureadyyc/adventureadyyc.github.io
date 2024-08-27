@@ -102,7 +102,7 @@ params:
   description: AdventuReady Youth Club Documentation
 
   navbar:
-    displayTitle: false
+    displayTitle: true
     displayLogo: true
     logo:
       path: icons/favicon.svg

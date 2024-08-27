@@ -9,8 +9,7 @@ sidebar:
 draft: false
 ---
 
-<!-- ![image](/static/logos/png/ARYC-bgw-500x500.png) -->
-<!-- ![image](/logos/png/ARYC-bgw-500x500.png) -->
+<!-- ![image](/logos/png/ARYC-bgw-500x500.png "caption here") -->
 
 ## PNG: Main
 
