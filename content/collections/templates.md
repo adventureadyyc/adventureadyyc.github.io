@@ -9,14 +9,16 @@ prev: collections/official-logo/
 
 ## Modified Templates For ARYC Website
 
-Only websites in production mode are clickable
+{{< callout type="info" >}}
+	Only websites in production mode are clickable
+{{< /callout >}}
 
 {{< cards >}}
-  {{< card link="https://aryc.vercel.app" title="Travel Landing Page by MidoTech" icon="external-link" >}}
-  <!-- {{< card link="" title="Adventure Landing Page (Free Version) by Colorlib.com" icon="external-link" >}} -->
-  {{< card link="https://tiya.aryc.pages.dev" title="Tiya Golf Club by TemplateMo.com" icon="external-link" >}}
-  {{< card link="https://yogast.aryc.pages.dev" title="Yogast by HTML.Designs" icon="external-link" >}}
-  {{< card link="https://a-world.aryc.pages.dev" title="A-World by HTML.Designs" icon="external-link" >}}
+	{{< card link="https://aryc.vercel.app" title="Travel Landing Page by MidoTech" icon="external-link" >}}
+	{{< card link="" title="Adventure Landing Page (Free Version) by Colorlib.com" icon="x" >}}
+	{{< card link="https://tiya.aryc.pages.dev" title="Tiya Golf Club by TemplateMo.com" icon="external-link" >}}
+	{{< card link="https://yogast.aryc.pages.dev" title="Yogast by HTML.Designs" icon="external-link" >}}
+	{{< card link="https://a-world.aryc.pages.dev" title="A-World by HTML.Designs" icon="external-link" >}}
 {{< /cards >}}
 
 - [**Travel Landing Page** by MidoTech *(Nextjs13 app)*](https://aryc.vercel.app)
@@ -73,6 +75,18 @@ Only websites in production mode are clickable
 <small class="py-2 small text-muted">
 	***Although these website reached the production stage, it is crossed out because the template had some issues like having only one main color theme. If I explore them more maybe I can do something about it.
 </small>
+
+{{< callout type="info" >}}
+  A **callout** is a short piece of text intended to attract attention.
+{{< /callout >}}
+
+{{< callout type="warning" >}}
+  A **callout** is a short piece of text intended to attract attention.
+{{< /callout >}}
+
+{{< callout type="error" >}}
+  A **callout** is a short piece of text intended to attract attention.
+{{< /callout >}}
 
 <!-- {{< cards >}}
   {{< card link="https://collection.cloudinary.com/tx012378/ec28f4e3076721b8d291f31b7be26a26" title="AdventuReady 2023 Official Logo" icon="book-open" >}}
